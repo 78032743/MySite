@@ -1,0 +1,58 @@
+body{
+    background: url("/static/imgs/bg.jpg") fixed 0 center;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-size: cover;
+    color: #fff;
+}
+table{
+    border-collapse:collapse;
+    border:solid 1px Black;
+    margin-top: 100px;
+}
+table td{
+    width:max-content;
+    height:min-content;
+    border:solid 1px Black;
+}
+table.hovertable {
+    font-family: verdana,arial,sans-serif;
+    font-size:12px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+}
+table.hovertable th {
+    background-color:#c3dde0;
+    border-width: 1px;
+    padding: 5px;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+    background-color:#C7EDCC;
+}
+table.hovertable td {
+    border-width: 1px;
+    padding: 5px;
+    border-color: #a9c6c9;
+}
+div.nav{
+    background-color: #000000;
+    width: 100%;
+    height: min-content;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1.title{
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+h3.producer{
+    margin: 0 auto;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-style: italic;
+}
